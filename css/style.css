@@ -1,7 +1,7 @@
 body{
     background-image: url("images/cliti.jpg");
-    padding: 3em;
-    margin: 5em;
+    padding: 0em;
+    margin: 0em;
 }
 .left{
     float: left;
@@ -14,8 +14,23 @@ body{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 #lf{
-    float: left;
+    float: right;
+    width: 300px;
+    height: 300px;
 }
 #rh{
-    float: right;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.center{
+    float: inline-start;
+}
+.one{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+hr{
+    padding-top: 9em;
 }
